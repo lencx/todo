@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto);@import url(http://fonts.googleapis.com/css?family=Handlee);/************************************
+@import url(https://fonts.googleapis.com/css?family=Roboto);@import url(https://fonts.googleapis.com/css?family=Handlee);/************************************
 * _todo.scss
 ************************************/
 /************************************
 * _todo.list.scss
 ************************************/
 body {
-  background: url(/static/img/todo-bg.295d8d4.png) repeat;
+  background: url(../../img/todo-bg.295d8d4.png) repeat;
   font-family: "Handlee", cursive;
   font-weight: bold;
   font-size: 18px;
@@ -364,9 +364,6 @@ ul {
 }
 #root-todo footer.todo-footer {
   height: 50px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 0, 100, .2)), to(rgba(100, 0, 105, .5)));
-  background-image: -webkit-linear-gradient(rgba(25, 0, 100, .2) 0%, rgba(100, 0, 105, .5) 100%);
-  background-image: linear-gradient(rgba(25, 0, 100, .2) 0%, rgba(100, 0, 105, .5) 100%);
   line-height: 50px;
   text-shadow: rgba(255, 255, 255, .5) 1px 1px 2px, rgba(240, 100, 240, .7) 2px 2px 2px, rgba(140, 240, 40, .8) 2px 2px 2px, rgba(20, 10, 0, .5) 2px 2px 2px;
 }
